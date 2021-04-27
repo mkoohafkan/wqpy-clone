@@ -2,7 +2,7 @@
 name = "wqpy"
 version = "0.1.0"
 description = ""
-authors = ["Michael Koohafkan <Michael.Koohafkan@water.ca.gov>"]
+authors = ["Michael Koohafkan <Michael.Koohafkan@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
