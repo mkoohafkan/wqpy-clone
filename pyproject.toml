@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "wqpy"
+version = "0.1.0"
+description = ""
+authors = ["Michael Koohafkan <Michael.Koohafkan@water.ca.gov>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.2.3"
+requests = "^2.25.1"
+wincertstore = "^0.2"
+python-certifi-win32 = "^1.6"
+aiohttp = "^3.7.4"
+asyncio = "^3.4.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
